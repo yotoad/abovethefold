@@ -2,16 +2,16 @@
 /**
  * Plugin Template
  *
- * @package     TO FILL
+ * @package     Above the Fold
  * @author      Mathieu Lamiot
- * @copyright   TO FILL
+ * @copyright   2025
  * @license     GPL-2.0-or-later
  *
  * @wordpress-plugin
- * Plugin Name: TO FILL
- * Version:     TO FILL
- * Description: TO FILL
- * Author:      Mathieu Lamiot
+ * Plugin Name: Above the Fold Link Visits
+ * Version:     0.0.1
+ * Description: Record visible hyperlinks on the front page in the last seven days.
+ * Author:      Todd Vernon
  */
 
 namespace ROCKET_WP_CRAWLER;

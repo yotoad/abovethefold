@@ -24,6 +24,7 @@ add_action( 'init', __NAMESPACE__ . '\load_whoops' );
  * @return void
  */
 function load_whoops() {
+	return;
 	$whoops     = new Run();
 	$error_page = new PrettyPageHandler();
 	$error_page->setEditor( 'sublime' ); // Set a specific style to the code display.

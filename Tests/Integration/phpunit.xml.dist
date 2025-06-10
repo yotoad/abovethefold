@@ -24,4 +24,7 @@
 			<group>Exclude</group>
 		</exclude>
 	</groups>
+	<php>
+	<env name="WP_TESTS_DIR" value="/var/www/idmworks-share/wordpress-develop/tests/phpunit"/>
+	</php>
 </phpunit>
