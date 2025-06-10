@@ -1,0 +1,25 @@
+<?xml version="1.0"?>
+<ruleset name="AboveTheFold Plugin Coding Standards">
+    <description>PHPCS configuration for the AboveTheFold WordPress plugin.</description>
+
+    <!-- Set the PHP version -->
+    <config name="php_version" value="80306"/>
+
+    <!-- Include WordPress Coding Standards -->
+    <rule ref="WordPress"/>
+    <rule ref="WordPress-Extra"/>
+    <rule ref="WordPress-Docs"/>
+
+    <!-- Exclude vendor and node_modules directories -->
+    <exclude-pattern>vendor/*</exclude-pattern>
+    <exclude-pattern>node_modules/*</exclude-pattern>
+
+    <!-- Show progress and report summary -->
+    <arg name="colors"/>
+    <arg name="report" value="summary"/>
+    <arg name="report-width" value="120"/>
+
+    <!-- Scan these directories -->
+    <file>plugin.php</file>
+    <file>src/</file>
+</ruleset>
